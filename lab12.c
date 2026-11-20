@@ -1,11 +1,4 @@
-/*
- * LU Factorization (Doolittle: L has 1s on the diagonal)
- *   A = L * U,  solve L*y = b (forward), then U*x = y (backward).
- *
- * Compile : gcc lu_factorization.c -o lu_factorization -lm
- * Run     : ./lu_factorization
- */
-
+// LU Factorization (Doolittle: L has 1s on the diagonal) 
 #include <stdio.h>
 #include <math.h>
 

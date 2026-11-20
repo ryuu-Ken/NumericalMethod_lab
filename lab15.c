@@ -1,12 +1,4 @@
-/*
- * Power Method
- *   Finds the dominant (largest magnitude) eigenvalue and its eigenvector.
- *   Repeat:  y = A*x ;  lambda = largest component of y ;  x = y / lambda
- *
- * Compile : gcc power_method.c -o power_method -lm
- * Run     : ./power_method
- */
-
+//Power Method
 #include <stdio.h>
 #include <math.h>
 

@@ -9,7 +9,7 @@ double f(double x) {
 int main() {
     double a, b, e, c;
     int i = 0;
-    int maxIter = 1000;  // safety limit, not user-facing
+    int maxIter = 1000;  
 
     printf("Enter lower bound (a): ");
     scanf("%lf", &a);
@@ -20,13 +20,11 @@ int main() {
     printf("Enter tolerance (e): ");
     scanf("%lf", &e);
 
-    // Step 1: Check if bisection method can be applied
     if (f(a) * f(b) >= 0) {
         printf("Bisection method cannot be applied\n");
         return 0;
     }
 
-    // Step 2: Iterate until tolerance is met
     do {
         c = (a + b) / 2.0;
         i++;
@@ -41,7 +39,6 @@ int main() {
 
     } while (fabs(f(c)) >= e && (b - a) / 2.0 >= e && i < maxIter);
 
-    // Step 3: Print result
     printf("Approximate root = %.4lf (found in %d iterations)\n", c, i);
 
     if (i >= maxIter)

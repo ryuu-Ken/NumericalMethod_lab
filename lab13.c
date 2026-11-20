@@ -1,12 +1,4 @@
-/*
- * Jacobi Iteration Method
- *   x_i(new) = ( b_i - sum_{j != i} a_ij * x_j(old) ) / a_ii
- *   Every component uses only the values from the previous iteration.
- *
- * Compile : gcc jacobi.c -o jacobi -lm
- * Run     : ./jacobi
- */
-
+ //Jacobi Iteration Method
 #include <stdio.h>
 #include <math.h>
 

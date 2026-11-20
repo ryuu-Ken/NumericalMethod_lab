@@ -1,13 +1,4 @@
-/*
- * Gauss-Seidel Iteration Method
- *   x_i(new) = ( b_i - sum_{j != i} a_ij * x_j ) / a_ii
- *   Each component immediately uses the newest values already computed
- *   in the same iteration (this is what makes it faster than Jacobi).
- *
- * Compile : gcc gauss_seidel.c -o gauss_seidel -lm
- * Run     : ./gauss_seidel
- */
-
+// Gauss-Seidel Iteration Method
 #include <stdio.h>
 #include <math.h>
 

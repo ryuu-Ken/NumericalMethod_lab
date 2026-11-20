@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// f(x) = x^3 - 4x - 9
 double f(double x) {
     return x*sin(x) - 1;
 }

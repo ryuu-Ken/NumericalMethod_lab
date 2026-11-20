@@ -1,11 +1,5 @@
-/*
- * Gauss Elimination Method
- *   Forward elimination -> upper triangular form, then back substitution.
- *
- * Compile : gcc gauss_elimination.c -o gauss_elimination -lm
- * Run     : ./gauss_elimination
- */
-
+// * Gauss Elimination Method
+ 
 #include <stdio.h>
 #include <math.h>
 

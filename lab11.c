@@ -1,11 +1,4 @@
-/*
- * Gauss-Jordan Method
- *   Reduces the augmented matrix to the identity form [I | x].
- *
- * Compile : gcc gauss_jordan.c -o gauss_jordan -lm
- * Run     : ./gauss_jordan
- */
-
+// Gauss-Jordan Method
 #include <stdio.h>
 #include <math.h>
 
